@@ -1,0 +1,17 @@
+[project]
+name = "2025-p4-slothlesss"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Slothlesss",email = "109386583+Slothlesss@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask-sqlalchemy (>=3.1.1,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
